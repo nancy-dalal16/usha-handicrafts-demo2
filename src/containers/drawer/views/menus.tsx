@@ -19,7 +19,7 @@ const menus = [
   {
     id: 1,
     pathname: "/",
-    title: "Medsy Modern",
+    title: "Home",
   },
 
   {
