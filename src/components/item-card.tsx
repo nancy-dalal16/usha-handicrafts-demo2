@@ -1,10 +1,10 @@
-import { CURRENCY } from 'helpers/constants';
+import { CURRENCY } from "helpers/constants";
 import {
   ItemCardBase,
   ItemCardImage,
   ItemCardContent,
   ItemCardPrice,
-} from './utils/theme';
+} from "./utils/theme";
 
 interface ItemProps {
   image: string;
@@ -26,7 +26,8 @@ const ItemCard: React.FC<ItemCardProps> = ({ item, onClick }) => {
         <img
           className="object-cover"
           src={item.image}
-          alt={' Alt ' + item.name}
+          alt={" Alt " + item.name}
+          style={{ height: "200px" }}
         />
       </div>
 
